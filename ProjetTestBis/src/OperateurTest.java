@@ -27,6 +27,26 @@ public class OperateurTest {
 		
 		// TODO cela est un commentaire?
 		
+		// Test des opérateurs
+		int addition ;
+		addition = 5 + 6 ;
+		System.out.println(addition);
+		
+		int soustraction;
+		soustraction = addition - 7 ;
+		System.out.println(soustraction);
+		
+		int multiplication ;
+		multiplication = addition * soustraction;
+		System.out.println(multiplication);
+		
+		float division ;
+		division = addition * multiplication / 9.666F;
+		System.out.println(division);
+		
+		float modulo ;
+		modulo = ( multiplication / division ) % 13;
+		System.out.println(modulo);
 
 	}
 

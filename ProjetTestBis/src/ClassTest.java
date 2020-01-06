@@ -38,6 +38,7 @@ public class ClassTest {
 		long maVariableLong = 999999999L;
 		System.out.println(maVariableInt);
 		
+		//		Opérateur d'assignement, d'affectation
 		float maVariableFloat = 3.14F;
 		double maVariableDouble = 0.123456789;
 		
@@ -53,6 +54,7 @@ public class ClassTest {
 		System.out.println(maChaine3);
 		System.out.println(maVariableByte / maVariableFloat + maVariableDouble );
 		
+		System.out.println();
 		
 	}
 	
